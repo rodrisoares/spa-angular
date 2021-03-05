@@ -1,0 +1,18 @@
+<nav mat-tab-nav-bar>
+    <a mat-tab-link 
+        (click)= "goToSedans()">
+        {{text1}}
+    </a>
+
+    <a mat-tab-link 
+        (click)= "goToSuvs()">
+        {{text2}}
+    </a>
+
+    <a mat-tab-link 
+        (click)= "goToPickups()">
+        {{text3}}
+    </a>
+</nav>
+
+<router-outlet></router-outlet>
